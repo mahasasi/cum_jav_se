@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-28T15:31:46.891Z",
+        "start_timestamp": "2021-08-31T17:25:59.592Z",
         "line": 12,
         "name": "check login is sucessfull with valid credentials are not",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2925000000,
+              "duration": 2609000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1967000000,
+              "duration": 2102000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2601000000,
+              "duration": 2170000000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 75000000,
+              "duration": 86000000,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 134000000,
+              "duration": 75000000,
               "status": "passed"
             },
             "line": 8,
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-28T15:31:54.811Z",
+        "start_timestamp": "2021-08-31T17:26:06.764Z",
         "line": 13,
         "name": "check login is sucessfull with valid credentials are not",
         "description": "",
@@ -94,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1874000000,
+              "duration": 2231000000,
               "status": "passed"
             },
             "line": 4,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 3049000000,
+              "duration": 2529000000,
               "status": "passed"
             },
             "line": 5,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 86000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "line": 7,
@@ -165,7 +165,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-28T15:32:02.061Z",
+        "start_timestamp": "2021-08-31T17:26:13.851Z",
         "line": 14,
         "name": "check login is sucessfull with valid credentials are not",
         "description": "",
@@ -175,7 +175,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1624000000,
+              "duration": 1961000000,
               "status": "passed"
             },
             "line": 4,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 2955000000,
+              "duration": 2863000000,
               "status": "passed"
             },
             "line": 5,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 2172000000,
+              "duration": 2181000000,
               "status": "passed"
             },
             "line": 6,
@@ -221,7 +221,7 @@
           },
           {
             "result": {
-              "duration": 86000000,
+              "duration": 75000000,
               "status": "passed"
             },
             "line": 7,
@@ -233,93 +233,7 @@
           },
           {
             "result": {
-              "duration": 49000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user is navigated to the homepage of that link",
-            "match": {
-              "location": "google_step_def.google_login_step_def.user_is_navigated_to_the_homepage_of_that_link()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Test login functionality",
-    "description": "",
-    "id": "test-login-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/feature1/Google_search.feature",
-    "tags": []
-  }
-]login is sucessfull with valid credentials are not",
-        "description": "",
-        "id": "test-login-functionality;check-login-is-sucessfull-with-valid-credentials-are-not;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1993000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "google browser is open",
-            "match": {
-              "location": "google_step_def.google_login_step_def.google_browser_is_open()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2388000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "and go to the given url",
-            "match": {
-              "location": "google_step_def.google_login_step_def.and_go_to_the_given_url()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2200000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user entered the Ragav and 12345",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ragav",
-                  "offset": 17
-                },
-                {
-                  "val": "12345",
-                  "offset": 27
-                }
-              ],
-              "location": "google_step_def.google_login_step_def.user_entered_the_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 108000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicked on the login page",
-            "match": {
-              "location": "google_step_def.google_login_step_def.user_clicked_on_the_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 50000000,
+              "duration": 46000000,
               "status": "passed"
             },
             "line": 8,
